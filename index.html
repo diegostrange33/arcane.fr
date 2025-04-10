@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane - Site Non Officiel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <style>
+        /* Corps de la page : ambiance chaotique */
+        body {
+            font-family: 'Rubik Mono One', sans-serif;
+            background: linear-gradient(45deg, #2d2d34, #53005e, #210d46); /* Fond sombre et nerveux */
+            color: #ff77ff; /* Teinte néon typique de Jinx */
+            margin: 0;
+            padding: 0;
+            animation: colorShift 3s infinite alternate; /* Animation de fond psychédélique */
+        }
+
+        @keyframes colorShift {
+            0% { filter: hue-rotate(0deg); }
+            100% { filter: hue-rotate(45deg); }
+        }
+
+        /* En-tête : style explosif */
+        header {
+            text-align: center;
+            background: radial-gradient(circle, #ff007f, #7700ff);
+            color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.7);
+            border-bottom: 3px dashed #ff55ff;
+            animation: headerPulse 2s infinite;
+        }
+
+        @keyframes headerPulse {
+            0% { box-shadow: 0 0 10px #ff55ff; }
+            100% { box-shadow: 0 0 20px #ff55ff; }
+        }
+
+        header h1 {
+            font-size: 3em;
+            text-shadow: 4px 4px 10px #000;
+            letter-spacing: 5px;
+        }
+
+        /* Barre de navigation : nerveuse et interactive */
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #2d2d34;
+            border-bottom: 2px solid #ff55ff;
+        }
+
+        nav a {
+            font-weight: bold;
+            color: #ff2ec1;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 20px;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #7700ff;
+            transform: rotate(-5deg) scale(1.1);
+            color: #fff;
+            text-shadow: 0 0 5px #ff55ff;
+        }
+
+        /* Contenu */
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .content img {
+            max-width: 50%;
+            height: auto;
+            border: 5px double #ff55ff;
+            cursor: pointer;
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 20px #ff55ff, 0 0 5px #7700ff inset;
+        }
+
+        .content img.exploded {
+            transform: scale(3) rotate(10deg);
+            opacity: 0; /* Devient invisible après explosion */
+        }
+
+        /* Sections : effet de chaos */
+        section {
+            margin-bottom: 50px;
+            text-align: left;
+            background: rgba(77, 0, 127, 0.3);
+            border: 3px dotted #ff55ff;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(255, 85, 255, 0.4);
+        }
+
+        section h2 {
+            color: #ff55ff;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px #000;
+        }
+
+        section p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        /* Pied de page */
+        footer {
+            text-align: center;
+            background-color: #1d1d1f;
+            color: #ff007f;
+            padding: 15px;
+            font-size: 1em;
+            border-top: 3px dashed #ff55ff;
+            animation: footerWave 4s infinite alternate;
+        }
+
+        @keyframes footerWave {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+
+        footer::before {
+            content: "🔫💣✨";
+            display: block;
+            font-size: 2em;
+        }
+
+        footer form {
+            margin-top: 20px;
+        }
+
+        footer textarea, footer input {
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            border: 2px solid #ff55ff;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        footer button {
+            margin-top: 10px;
+            background-color: #ff2ec1;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site dédié à Arcane écrit par Diego</h1>
+    </header>
+    <nav>
+        <a href="#histoire">Histoire</a>
+        <a href="#personnages">Personnages</a>
+        <a href="#univers">Univers</a>
+    </nav>
+    <div class="content">
+        <section id="histoire">
+            <h2>Histoire</h2>
+            <p>La série Arcane, basée sur l'univers de League of Legends, se déroule dans les villes jumelles de Piltover et Zaun. Piltover est une métropole prospère surnommée la "Cité du Progrès", tandis que Zaun, située en contrebas, est marquée par la pauvreté et la pollution. L'histoire suit les destins croisés de Vi et Jinx, deux sœurs issues de Zaun, dont la relation est mise à l'épreuve par des conflits sociaux, politiques et personnels. Le récit explore les tensions entre magie et technologie, alimentées par l'invention de l'Hextech, une technologie révolutionnaire de Piltover.</p>
+        </section>
+        <section id="personnages">
+            <h2>Personnages</h2>
+            <p>mais qui sont les parssonages.</p>
+            <p>1. Vi : on as deja parlée de vi mais qui c'est? Vi est Une combattante déterminée et protectrice, c'est l'aînée des deux sœurs ( Vi et Jinx ). Elle incarne la force brute et est prête à tout pour défendre ce en quoi elle croit, surtout quand il s'agit de Jinx.</p>
+            <p>2. ensuite parlon de Jinx : De son vrai nom Powder, Jinx est la petite sœur de Vi. Tourmentée par des traumatismes passés, elle devient une inventrice excentrique et chaotique, plongeant dans un monde de folie.</p>
+            <p>3. on rencontre aussi Jayce : Un brillant inventeur de Piltover, il est le créateur de l'Hextech, une technologie révolutionnaire fusionnant magie et science. Jayce est ambitieux, mais ses actions ont des conséquences inattendues. </p>
+            <p>4. on continue avec Viktor : Originaire de Zaun, Viktor est un scientifique et collaborateur de Jayce. Obsédé par l'amélioration de l'humanité, il explore des technologies souvent controversées.</p>
+            <p>5. Ekko : Un jeune prodige de Zaun, Ekko est rusé et ingénieux. Il rêve d'un avenir meilleur pour sa communauté et est prêt à se battre pour ses idéaux meme si cela veut dire affronter son ami d'enfence Jinx.</p>
+            <p>6. Caitlyn Kiramman : Une tireuse d'élite et enquêtrice de Piltover. Issue d'une famille noble, elle s'efforce de rendre la justice tout en explorant le contraste entre les mondes de Piltover et de Zaun.</p>
+            <p>7. Silco : L'antagoniste principal, un leader de Zaun prêt à tout pour garantir l'indépendance de la cité souterraine. Complexe et calculateur, il a une relation fascinante avec Jinx.</p>
+            <p>8 Heimerdinger : Un yordle sage et inventeur légendaire. Il est une figure importante à Piltover, cherchant à guider les jeunes scientifiques tout en préservant l'équilibre entre innovation et responsabilité.</p>
+            <img src="jinx.jpg" alt="Image de personnages d'Arcane" id="arcaneImage" width="200">
+        </section>
+        <section id="univers">
+            <h2>Univers</h2>
+            <section>
+                <h3>Piltover</h3>
+            <p>
+                Connue comme <i>"la cité du progrès"</i>, Piltover est une métropole florissante, centrée sur l'innovation technologique et scientifique. 
+                Ses citoyens vivent dans une société relativement prospère, où règnent l'ordre et l'élégance. 
+                Les grandes familles influentes, comme les <b>Kiramman</b>, jouent un rôle important dans le gouvernement et les affaires de la ville.
+            </p>
+			<img src="piltover.jpg" alt="Image de piltover" id="Image" width="200">
+        </section>
+
+        <section>
+            <h3>Zaun</h3>
+            <p>
+                Située sous Piltover, Zaun est une cité industrielle et sombre, marquée par la pauvreté et les conflits. 
+                Elle est animée par des usines chimiques et des technologies brutales, créant une atmosphère dangereuse mais pleine de vie. 
+                Les habitants de Zaun doivent souvent lutter pour survivre, dans un environnement où les inégalités sont flagrantes.
+            </p>
+			<img src="zaun.jpg" alt="Image de zaun" id="image" width="200">
+        </section>
+
+        <section>
+            <h3>Tensions entre Piltover et Zaun</h3>
+            <p>
+                Les tensions entre Piltover et Zaun sont au cœur de l'intrigue de <i>Arcane</i>. 
+                Ces deux mondes sont séparés par un abîme économique, social et culturel, mais ils sont également liés par la technologie et les rêves de ceux qui osent imaginer un avenir différent.
+            </p>
+			<img src="conflit.jpg" alt="Image du conflit" id="image" width="200">
+        </section>
+
+        <section>
+            <h3>Thèmes explorés</h3>
+            <p>
+                Les thèmes de l'injustice sociale, des conflits familiaux et des ambitions personnelles alimentent cette histoire poignante. 
+                Chaque cadre est magnifiquement réalisé, des somptueux bâtiments de Piltover aux ruelles exiguës de Zaun, donnant vie à un univers immersif où les personnages naviguent entre lumière et ombre. 
+                C'est un monde à la fois captivant et brutal, porté par des dilemmes moraux complexes.</p>
+        </section>
+		<div id="pied-de-page">
+		<p> tu peut lacher un commentaire sur mon dernier short <a href="https://www.youtube.com/@diegostrange33304" class="lien">youtube</a> pour me donner ton avis </p>
+        </section>
+    </div>
+	</div>
+</body>
+</html>
